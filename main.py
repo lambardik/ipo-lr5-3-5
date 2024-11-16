@@ -1,9 +1,9 @@
 text = input("Введите строку: ")
-vowels = "аеёиоуыэюяАЕЁИОУЫЭЮЯ"
-vowel_count = 0
+letters = "аеёиоуыэюяАЕЁИОУЫЭЮЯ"
+letters_count = 0
 
 for char in text.lower():
-  if char in vowels:
-    vowel_count += 1
+  if char in letters:
+    letters_count += 1
 
-print(f"Количество гласных: {vowel_count}")
+print(f"Кол-во гласных: {letters_count}")
