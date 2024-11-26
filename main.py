@@ -1,5 +1,5 @@
 text = input("Введите строку: ")
-letters = "аеёиоуыэюяАЕЁИОУЫЭЮЯ"
+letters = "аеёиоуыэюя"
 letters_count = 0
 
 for char in text.lower():
